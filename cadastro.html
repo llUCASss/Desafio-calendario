@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="/src/CSS/cadastro/cadastro.css">
+
+    <script src="https://kit.fontawesome.com/b7fead3114.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+    <div class="main-cadastro">
+
+        <div class="left-cadastro">
+
+            <h1>Faça seu cadastro <br> e tenha acesso as suas atividades</h1>
+
+            <img src="src/IMG/environmental-audit-animate.svg" class="left-loin-image" alt="astronauta">
+
+            
+
+        </div>
+        <div class="right-cadastro">
+
+            <div class="card-cadastro">
+
+                <h1>Cadastro </h1>
+
+                <div id="msgError"></div>
+                <div id="msgSuccess"></div>
+
+                <div class="textfield">
+
+                    <label id="labelNome" for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
+
+                </div>
+
+                <div class="textfield">
+
+                    <label id="labelUsuario" for="email">Usuário</label>
+                    <input type="email" name="usuario" id="usuario" placeholder="E-mail">
+
+                </div>
+                <div class="textfield">
+
+                    <label id="labelSenha" for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Senha" required>
+                    
+                </div>
+
+                <div class="textfield">
+
+                    <label id="labelconfirmSenha" for="confirmSenha">Confirmar senha</label>
+                    <input type="password" name="senha" id="confirmSenha" placeholder="Senha">
+                    
+                </div>
+
+                <a href="#" class="botao-neon" onclick="cadastrar()">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    
+                    Cadastrar
+                    
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    
+
+    <script src="JS/cadastro/cadastro.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de login</title>
+    <link rel="stylesheet" href="src/CSS/login/login.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+</head>
+<body>
+
+    <div class="main-login">
+
+        <div class="left-login">
+
+            <h1>Faça login <br> e Cadastre suas atividades</h1>
+
+            <img src="src/IMG/astronaut-suit-animate.svg" class="left-loin-image" alt="astronauta">
+
+            
+
+        </div>
+        <div class="right-login">
+
+            <div class="card-login">
+
+                <h1>LOGIN</h1>
+
+                <div id="msgError"></div>
+
+                <div class="textfield">
+
+                    <label id="labelUser" for="usuario">Usuário</label>
+                    <input type="email" name="usuario" id="usuario" placeholder="Usuário">
+
+                </div>
+                <div class="textfield">
+
+                    <label id="labelSenha" for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" placeholder="Senha">
+
+                </div>
+
+                <a href="#" class="botao-neon"onclick="login()">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Login
+                    
+                </a>
+
+                <p class="cadastro">Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+
+            </div>
+
+        </div>
+
+        
+
+    </div>
+    
+    <script src="JS/login/login.js"></script>
+
+</body>
+</html>

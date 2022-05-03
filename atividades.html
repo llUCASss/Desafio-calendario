@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades</title>
+
+    <link rel="stylesheet" href="src/CSS/atividades/atividades.css">
+    <link rel="stylesheet" href="src/CSS/atividades/calendario.css">
+    <link rel="stylesheet" href="src/CSS/atividades/relogio.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header id="cabecalho">
+
+            <img src="src/IMG/astronaut-helmet-animate.svg" alt="capacete astronauta">
+    
+            <h1 id="logado" class="informacao-usuario"></h1>
+    
+            <a href="#" class="botao-neon"onclick="sair()">
+    
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Sair
+                
+            </a>
+    
+        </header>
+        
+        <div id="container">
+
+            <div id="header">
+
+              <div id="monthDisplay"></div>
+
+              <div>
+
+                <button id="backButton">Anterior</button>
+
+                <button id="nextButton">Proxímo</button>
+
+              </div>
+
+            </div>
+      
+            <div id="weekdays">
+
+              <div>Domingo</div>
+
+              <div>Segunda</div>
+
+              <div>Terça</div>
+
+              <div>Quarta</div>
+
+              <div>Quinta</div>
+
+              <div>Sexta</div>
+
+              <div>Sabado</div>
+
+            </div>
+      
+            <div id="calendar"></div>
+
+        </div>
+      
+          <div id="newEventModal">
+
+            <h2>Novo evento</h2>
+      
+            <input id="eventTitleInput" placeholder="Titulo do evento" />
+      
+            <button id="saveButton">Salvar</button>
+
+            <button id="cancelButton">Cancelar</button>
+
+          </div>
+      
+          <div id="deleteEventModal">
+
+            <h2>Evento</h2>
+      
+            <p id="eventText"></p>
+      
+            <button id="deleteButton">Deletar</button>
+
+            <button id="closeButton">Fechar</button>
+
+          </div>
+      
+          <div id="modalBackDrop"></div>
+
+          <div id="clock">
+
+            <div id="time">
+
+              <div><span id="hour">00</span><span>Horas</span></div>
+
+              <div><span id="minutes">00</span><span>Minutos</span></div>
+
+              <div><span id="seconds">00</span><span>Segundos</span></div>
+
+            </div>
+
+          </div>
+
+    </div>
+
+    
+    
+    <script src="JS/atividade.js/atividades.js"></script>
+    <script src="JS/atividade.js/calendario.js"></script>
+    <script src="JS/atividade.js/relogio.js"></script>
+</body>
+</html>

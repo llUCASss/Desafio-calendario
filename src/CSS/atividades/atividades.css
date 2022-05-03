@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+*{
+
+    margin: 0;
+
+    font-family: 'Indie Flower', cursive;
+
+}
+
+.container{
+
+    display: flex;
+
+   
+
+}
+
+
+#cabecalho{
+
+    width: 12vw;
+
+    height: 100vh;
+
+    background-color: #201b2c;
+
+    text-align: center;
+
+}
+
+.informacao-usuario{
+
+    color: #f0ffffde;
+
+}
+
+
+.botao-neon{
+
+    position: relative;
+
+    display: inline-block;
+
+    padding: 10px 20px;
+
+    color: #00ff88;
+
+    text-transform: uppercase;
+
+    letter-spacing: 4px;
+
+    text-decoration: none;
+
+    font-size: 20px;
+
+    overflow: hidden;
+
+    transition: 0.2s;
+
+    width: 20%;
+
+    text-align: center;
+
+    margin: 10px 0;
+
+}
+
+.botao-neon:hover{
+
+    color: #255784;
+
+    background-color: #00ff88;
+
+    box-shadow: 0 0 10px #00ff88, 0 0 40px #00ff88,0 0 80px #00ff88;
+
+    transition-delay: 1s;
+
+}
+
+
+.botao-neon span{
+
+    position: absolute;
+
+    display: block;
+
+}
+
+.botao-neon span:nth-child(1){
+
+    top: 0;
+
+    left: -100%;
+
+    width: 100%;
+
+    height: 2px;
+
+    background: linear-gradient(90deg, transparent,#00ff88);
+
+}
+
+.botao-neon:hover span:nth-child(1){
+
+    left: 100%;
+
+    transition: 1s;
+
+}
+
+.botao-neon span:nth-child(3){
+
+    bottom: 0;
+
+    right: -100%;
+
+    width: 100%;
+
+    height: 2px;
+
+    background: linear-gradient(270deg, transparent,#00ff88);
+
+}
+
+.botao-neon:hover span:nth-child(3){
+
+    right: 100%;
+
+    transition: 1s;
+
+    transition-delay: 0.5s;
+
+}
+
+.botao-neon span:nth-child(2){
+
+    top: -100%;
+
+    right: 0;
+
+    width: 2px;
+
+    height: 100%;
+
+    background: linear-gradient(180deg, transparent,#00ff88);
+
+}
+
+.botao-neon:hover span:nth-child(2){
+
+    top: 100%;
+
+    transition: 1s;
+
+    transition-delay: 0.25s;
+
+}
+
+.botao-neon span:nth-child(4){
+
+    bottom: -100%;
+
+    left: 0;
+
+    width: 2px;
+
+    height: 100%;
+
+    background: linear-gradient(360deg, transparent,#00ff88);
+
+}
+
+.botao-neon:hover span:nth-child(4){
+
+    bottom: 100%;
+
+    transition: 1s;
+
+    transition-delay: 0.75s;
+
+}
+
+
+
